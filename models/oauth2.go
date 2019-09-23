@@ -51,6 +51,7 @@ var OAuth2Providers = map[string]OAuth2Provider{
 			ProfileURL: oauth2.GetDefaultProfileURL("gitea"),
 		},
 	},
+	"indieauth": {Name: "indieauth", DisplayName: "IndieAuth", Image: "/img/auth/indieauth.png"},
 }
 
 // OAuth2DefaultCustomURLMappings contains the map of default URL's for OAuth2 providers that are allowed to have custom urls

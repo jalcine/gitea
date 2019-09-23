@@ -25,6 +25,7 @@ import (
 	"github.com/markbates/goth/providers/google"
 	"github.com/markbates/goth/providers/openidConnect"
 	"github.com/markbates/goth/providers/twitter"
+	"github.com/jalcine/goth/providers/indieauth"
 	"github.com/satori/go.uuid"
 )
 
